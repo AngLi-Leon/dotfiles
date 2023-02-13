@@ -1,12 +1,11 @@
 [user]
-	name = Art Chaidarun
-	email = artchaidarun@gmail.com
-[color]
+	name = Leon Li
+	email = leonlee.angli@gmail.com
 	ui = true
 [core]
 	autocrlf = input
 	editor = nano
-	excludesfile = /home/art/.gitignore
+	excludesfile = /home/leonli/.gitignore
 	pager = less -+FX
 [push]
 	autoSetupRemote = true
@@ -14,4 +13,4 @@
 [credential]
 	helper = cache --timeout=864000
 [init]
-	templateDir = /home/art/.git-template
+	templateDir = /home/leonli/.git-template

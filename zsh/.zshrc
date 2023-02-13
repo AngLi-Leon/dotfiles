@@ -38,7 +38,7 @@ gc() {
 gpr() {
   (
     set -eu
-    git log -n 1 | grep -q Chaidarun # Sanity check that I'm on my own commit
+    git log -n 1 | grep -q Leon # Sanity check that I'm on my own commit
     local -r NEW_BRANCH_NAME=$(git log --format=%B -n 1 HEAD \
       | head -1 \
       | xargs -0 echo -n \
